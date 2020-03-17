@@ -47,7 +47,7 @@ class Data_Excel():
         pattern.pattern_fore_colour = 2
         style = xlwt.XFStyle()
         style.pattern = pattern
-        #---------------------
+        #-------------------
         if len(list1) != 0 and len(list2) != 0:
             flag = 0
             table1 = self.data1.sheets()[0]  # 获取sheet表
