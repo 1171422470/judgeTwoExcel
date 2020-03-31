@@ -42,4 +42,5 @@ frame_left_bot.grid(row = 4,column = 0,padx = 1,pady = 1)
 Button(frame_left_bot, text='取消', height=1, width=10, command="#").grid(row = 0,column = 0,padx = 10,pady = 20)
 Button(frame_left_bot, text='确定', height=1, width=10, command="#").grid(row = 0,column = 1,padx = 10,pady = 20)
 
+
 window.mainloop()
